@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <div className="header">
         <img src={require('./images/logo.png')} alt="My Logo" id="myLogo" />
+        <h3>COVID19 Tracker</h3>
         <img src={require('./images/covid19-white.png')} alt="covid 19" id="covidLogo" />
       </div>
       <div className="content">
