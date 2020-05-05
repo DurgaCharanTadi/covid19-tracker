@@ -2,7 +2,7 @@
   "name": "covid19-tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/DurgaCharanTadi/covid19-tracker",
+  "homepage": "https://durgacharantadi.github.io/covid19-tracker/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
