@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/covid19-tracker/static/css/main.970e4647.chunk.css",
-    "main.js": "/covid19-tracker/static/js/main.cf2228f6.chunk.js",
-    "main.js.map": "/covid19-tracker/static/js/main.cf2228f6.chunk.js.map",
+    "main.css": "/covid19-tracker/static/css/main.e1c3bf5c.chunk.css",
+    "main.js": "/covid19-tracker/static/js/main.ded53dfa.chunk.js",
+    "main.js.map": "/covid19-tracker/static/js/main.ded53dfa.chunk.js.map",
     "runtime-main.js": "/covid19-tracker/static/js/runtime-main.3ee0972c.js",
     "runtime-main.js.map": "/covid19-tracker/static/js/runtime-main.3ee0972c.js.map",
     "static/js/2.823bc7f7.chunk.js": "/covid19-tracker/static/js/2.823bc7f7.chunk.js",
     "static/js/2.823bc7f7.chunk.js.map": "/covid19-tracker/static/js/2.823bc7f7.chunk.js.map",
     "index.html": "/covid19-tracker/index.html",
-    "precache-manifest.7b51f2e768c5c6ed53d3848175152d02.js": "/covid19-tracker/precache-manifest.7b51f2e768c5c6ed53d3848175152d02.js",
+    "precache-manifest.f4288f24537ee58d0714483a5430a7b5.js": "/covid19-tracker/precache-manifest.f4288f24537ee58d0714483a5430a7b5.js",
     "service-worker.js": "/covid19-tracker/service-worker.js",
-    "static/css/main.970e4647.chunk.css.map": "/covid19-tracker/static/css/main.970e4647.chunk.css.map",
+    "static/css/main.e1c3bf5c.chunk.css.map": "/covid19-tracker/static/css/main.e1c3bf5c.chunk.css.map",
     "static/js/2.823bc7f7.chunk.js.LICENSE.txt": "/covid19-tracker/static/js/2.823bc7f7.chunk.js.LICENSE.txt",
     "static/media/covid19-white.png": "/covid19-tracker/static/media/covid19-white.4e80ec5e.png",
+    "static/media/App.css": "/covid19-tracker/static/media/world-map-bg.f77d99d0.png",
     "static/media/logo.png": "/covid19-tracker/static/media/logo.b0e94896.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ee0972c.js",
     "static/js/2.823bc7f7.chunk.js",
-    "static/css/main.970e4647.chunk.css",
-    "static/js/main.cf2228f6.chunk.js"
+    "static/css/main.e1c3bf5c.chunk.css",
+    "static/js/main.ded53dfa.chunk.js"
   ]
 }
