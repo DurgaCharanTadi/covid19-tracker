@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .App-logo {
@@ -27,7 +27,6 @@
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -44,7 +43,6 @@ body{
   background-color: #F4F4F4;
 }
 .header{
-  margin-top: 30px!important;
   display: flex;
   justify-content: space-between;
   border-top-left-radius: 10px;
@@ -58,7 +56,7 @@ body{
   box-shadow: -5px 5px 5px #aaaaaa;
 }
 .content{
-  height: 78vh;
+  height: 85vh;
   overflow-y: auto;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -71,6 +69,7 @@ body{
   color: #CC0000;
   opacity: 0.8;
 }
+
 /* Responsive media queries */
 /* Header */
 @media screen and (max-width: 500px) {
@@ -87,6 +86,11 @@ body{
   }
   .header h3{
     font-size: 18px;
+  }
+  .content{
+    background-image: url('./images/globe-bg.png');
+    background-position: center;
+    opacity: 0.1;
   }
 }
 
@@ -105,21 +109,79 @@ body{
   .header h3{
     font-size: 26px;
   }
+  .content{
+    background-image: url('./images/globe-bg.png');
+    background-position: center;
+    opacity: 0.4;
+  }
 }
 
 @media screen and (min-width: 1201px){
   .header #myLogo{
     padding-left: 25px;
-    height: 120px;
-    width: 170px;
+    height: 70px;
+    width: 90px;
   }
   .header #covidLogo{
     padding-right: 25px;
     padding-top: 10px;
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
   }
   .header h3{
-    font-size: 42px;
+    font-size: 26px;
+  }
+  .header{
+    margin-top: 15px;
+    height: 65px;
+    opacity: 0.9;
+  }
+  .content{
+    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.3)),url('./images/world-map-bg.png');
+    background-size: cover;
+  }
+  .main_content{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+  }
+  .countries_list{
+    width: 35vw;
+  }
+  .cases_blocks{
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .total_number_cases,
+  .active_cases,
+  .total_deaths,
+  .recovered_cases{
+    text-align: center;
+    padding: 80px;
+    margin: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    border-radius: 25px;
+    box-shadow: 3px 3px rgba(0,0,0,.2);
+  }
+  .total_number_cases{
+    background-color: rgba(255,7,58,.12549);
+    color: #ff073a;
+    transition: all .1s ease-in-out;
+  }
+  .active_cases{
+    background-color: rgba(0,123,255,.0627451);
+    color: #007bff;
+  }
+  .total_deaths{
+    background-color: rgba(108,117,125,.0627451);
+    color: #6c757d;
+  }
+  .recovered_cases{
+    background-color: rgba(40,167,69,.12549);
+    color: rgba(40,167,69,.6);
   }
 }
