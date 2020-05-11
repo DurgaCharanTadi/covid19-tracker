@@ -91,12 +91,12 @@ function App() {
                    </Card.Text>
                  </Card.Body>
                  <ListGroup className="list-group-flush">
-                   <ListGroupItem>Cases per One Million: <NumberFormat value={alldetails.casesPerOneMillion} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
-                   <ListGroupItem>Deaths per One Million: <NumberFormat value={alldetails.deathsPerOneMillion} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
-                   <ListGroupItem>Total Tests: <NumberFormat value={alldetails.tests} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
-                   <ListGroupItem>Tests per One Million: <NumberFormat value={alldetails.testsPerOneMillion} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
-                   <ListGroupItem>New Cases: <NumberFormat value={alldetails.todayCases} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
-                   <ListGroupItem>New Deaths: <NumberFormat value={alldetails.todayDeaths} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
+                   <ListGroupItem>Cases per One Million: <NumberFormat value={countrydetails.casesPerOneMillion} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
+                   <ListGroupItem>Deaths per One Million: <NumberFormat value={countrydetails.deathsPerOneMillion} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
+                   <ListGroupItem>Total Tests: <NumberFormat value={countrydetails.tests} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
+                   <ListGroupItem>Tests per One Million: <NumberFormat value={countrydetails.testsPerOneMillion} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
+                   <ListGroupItem>New Cases: <NumberFormat value={countrydetails.todayCases} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
+                   <ListGroupItem>New Deaths: <NumberFormat value={countrydetails.todayDeaths} displayType={'text'} thousandSeparator={true} /></ListGroupItem>
                    </ListGroup>
               </Card>
           )}
