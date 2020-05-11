@@ -119,7 +119,7 @@ body{
 @media screen and (min-width: 1201px){
   .header #myLogo{
     padding-left: 25px;
-    height: 70px;
+    height: 60px;
     width: 90px;
   }
   .header #covidLogo{
@@ -130,14 +130,15 @@ body{
   }
   .header h3{
     font-size: 26px;
+    margin-top: 10px;
   }
   .header{
     margin-top: 15px;
-    height: 65px;
+    height: 75px;
     opacity: 0.9;
   }
   .content{
-    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.3)),url('./images/world-map-bg.png');
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.8)),url('./images/world-map-bg.png');
     background-size: cover;
   }
   .main_content{
@@ -147,10 +148,11 @@ body{
     margin: auto;
   }
   .countries_list{
-    width: 35vw;
+    width: 25vw;
+    margin: 20px;
   }
   .cases_blocks{
-    width: 60vw;
+    width: 50vw;
     display: flex;
     justify-content: space-between;
   }
@@ -168,20 +170,26 @@ body{
     box-shadow: 3px 3px rgba(0,0,0,.2);
   }
   .total_number_cases{
-    background-color: rgba(255,7,58,.12549);
+    background-color: rgba(255,7,58,0.2);
     color: #ff073a;
-    transition: all .1s ease-in-out;
+    text-shadow: 1px 1px rgba(50,50,70,.5);
   }
   .active_cases{
-    background-color: rgba(0,123,255,.0627451);
+    background-color: rgba(0,123,255,0.2);
     color: #007bff;
+    text-shadow: 0.7px 0.7px rgba(50,50,70,.5);
   }
   .total_deaths{
-    background-color: rgba(108,117,125,.0627451);
+    background-color: rgba(108,117,125,0.2);
     color: #6c757d;
+    text-shadow: 1px 1px rgba(50,50,70,.5);
   }
   .recovered_cases{
-    background-color: rgba(40,167,69,.12549);
-    color: rgba(40,167,69,.6);
+    background-color: rgba(40,167,69,0.2);
+    color: rgba(40,167,69,1);
+    text-shadow: 0.7px 0.7px rgba(50,50,70,.5);
+  }
+  .accordian_countries{
+    background-color: rgba(40,167,69,0.2)!important;
   }
 }
