@@ -124,13 +124,13 @@ body{
   }
   .header #covidLogo{
     padding-right: 25px;
-    padding-top: 10px;
     height: 60px;
     width: 60px;
   }
   .header h3{
     font-size: 26px;
     margin-top: 10px;
+    font-weight: bold;
   }
   .header{
     margin-top: 15px;
@@ -191,5 +191,17 @@ body{
   }
   .accordian_countries{
     background-color: rgba(40,167,69,0.2)!important;
+  }
+  .content .search-bar{
+    width: 25vw;
+    height: 35px;
+    margin: 20px 20px 0 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    padding-left: 15px;
+    border-color: none;
+  }
+  .content .search-bar:focus{
+    outline: none;
   }
 }
